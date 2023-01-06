@@ -1,0 +1,282 @@
+@media only screen and (max-width: 600px) {
+  /* Header aea styling */
+
+  #header-main {
+    max-width: 100%;
+    padding: 25px 15px 0 15px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  .arrow {
+    margin-left: 5px;
+  }
+
+  .contact-us {
+    padding: 0 0 0 15px;
+  }
+
+  /* Hero section styling */
+
+  #hero {
+    width: 100%;
+    height: 900px;
+    background-image: url(/Assets/Photos/backCards.png);
+    background-position: top 0 left 140px;
+    background-repeat: no-repeat;
+  }
+
+  .hero-main {
+    width: 100%;
+    height: 900px;
+    background-image: url(/Assets/Photos/frontCards.png);
+    background-position: top 70px left 800px;
+    background-repeat: no-repeat;
+  }
+
+  .hero-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .hero-content-area {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .hero-heading br {
+    display: none;
+  }
+
+  .hero-heading {
+    font-size: 55px;
+  }
+
+  .hero-txt {
+    margin: 20px 0 40px 0;
+    text-align: center;
+  }
+
+  .hero-btn {
+    padding: 0 0 0 30px;
+  }
+
+  .user-count {
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 0;
+  }
+
+  .counter-divider {
+    transform: rotate(90deg);
+  }
+
+  .counter-txt {
+    text-align: left;
+  }
+
+  /* Brands logo */
+
+  .brands-logo-main {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 15px;
+  }
+
+  /* Service area styling */
+
+  .service-container {
+    background-color: #151515;
+    padding-bottom: 100px;
+  }
+
+  .service-main {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .service-head {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 90px 15px 80px 15px;
+  }
+
+  .service-heading br {
+    display: none;
+  }
+
+  .service-heading {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .service-txt br {
+    display: none;
+  }
+
+  .service-txt {
+    text-align: center;
+  }
+
+  /* Service box styling   */
+
+  .services-box-area {
+    flex-direction: column;
+  }
+
+  .services-boxes {
+    flex-basis: 100%;
+    width: 80%;
+  }
+
+  .services-boxes2 {
+    margin-top: 0;
+  }
+
+  .services-title {
+    font-size: 22px;
+  }
+
+  /* Unique card section styling */
+
+  #unique {
+    width: 100%;
+  }
+
+  .unique-container {
+    max-width: 100%;
+    padding: 100px 15px 0 15px;
+  }
+
+  /* Testimonial section styling */
+
+  #testimonial {
+    padding: 100px 15px;
+  }
+
+  .testimonial-head {
+    padding-bottom: 80px;
+  }
+
+  /* testimonal items styling */
+
+  .testimonials-main {
+    max-width: 100%;
+    gap: 40px;
+  }
+
+  .testimonials-box {
+    flex-basis: 100%;
+    padding: 20px;
+  }
+
+  .testimonials-3,
+  .testimonials-4 {
+    margin-top: 0;
+  }
+
+  .user-feedback br {
+    display: none;
+  }
+
+  /* Cta area styling */
+
+  #cta {
+    background-color: #151515;
+    padding: 0;
+  }
+
+  .cta-container {
+    max-width: 100%;
+    height: 250px;
+    background-size: 100%;
+  }
+
+  .cta-main {
+    max-width: 100%;
+    height: 250px;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .diamond1 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .diamond2 {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 13px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .cta-content {
+    position: absolute;
+    text-align: center;
+    padding: 25px 10px;
+  }
+
+  .cta-heading {
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-top: -90px;
+  }
+
+  .cta-h1-black {
+    color: #151515;
+  }
+
+  .cta-btn {
+    font-size: 16px;
+  }
+
+  /* Footer area styling */
+
+  footer {
+    padding-bottom: 150px;
+  }
+
+  .footer-main {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-logo-area {
+    text-align: center;
+  }
+
+  .footer-menu {
+    padding: 30px 0;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-right {
+    text-align: center;
+  }
+}
